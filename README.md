@@ -2,7 +2,7 @@
 
 A4 of UQ's famous CSSE2310. 
 
-imageproc allows multiple concurrently connected clients to send image editing requests and responds with the edited image in real time. The client is also included in this repository. Communication between clients and and the server is over TCP using HTTP.
+imageproc allows multiple concurrently connected clients to send image editing requests and responds with the edited image in real time. The client is also included in this repository. Communication between clients and the server is over TCP using HTTP.
 
 The server includes connection limiting features as well as statistics reporting (currently connected clients, num completed clients, successfully fulfilled HTTP requests, unsuccessful HTTP requests, and total operations).
 
